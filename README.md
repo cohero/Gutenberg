@@ -5,10 +5,10 @@
 > Modern framework to print web pages correctly
 
 [![npm (scoped)](https://img.shields.io/npm/v/gutenberg-css.svg?style=flat-square)](https://www.npmjs.com/package/gutenberg-css)
-[![npm](https://img.shields.io/npm/l/gutenberg-css.svg?style=flat-square)]()
-[![npm](https://img.shields.io/npm/dm/gutenberg-css.svg?style=flat-square)]()
+[![Build Status](https://travis-ci.org/BafS/Gutenberg.svg?branch=master)](https://travis-ci.org/BafS/Gutenberg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/cd58cc2133d461631f7f/maintainability)](https://codeclimate.com/github/BafS/Gutenberg/maintainability)
-[![Beerpay](https://beerpay.io/BafS/Gutenberg/badge.svg)](https://beerpay.io/BafS/Gutenberg)
+[![license](https://img.shields.io/npm/l/gutenberg-css.svg?style=flat-square)]()
+[![download](https://img.shields.io/npm/dm/gutenberg-css.svg?style=flat-square)]()
 
 # How to use
 
@@ -41,8 +41,8 @@ npm install gutenberg-css
 You can also use the unpkg service as a *CDN*.
 
 ```HTML
-<link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.4" media="print">
-<link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.4/dist/themes/oldstyle.min.css" media="print">
+<link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.6" media="print">
+<link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.6/dist/themes/oldstyle.min.css" media="print">
 ```
 
 
@@ -83,6 +83,6 @@ To force backgrounds to be printed (can be useful when you "print" a pdf), add t
 
 ## Dev
 
- - `npm install` to install dependencies
+ - `npm i` to install the dependencies
  - `npm run watch` to "watch" the scss folder and compile to css
  - `npm run build` to compile gutenberg to css
